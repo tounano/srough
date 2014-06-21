@@ -28,10 +28,10 @@ Eventually, `srough` is exactly the same thing as [through](https://github.com/d
 var srough = require("srough");
 
 var stream = srough(function write(data, done) {
-                 somethingAsync(data, function (err, res) {}
+                 somethingAsync(data, function (err, res) {
                     this.queue(res) //data *must* not be null
                     done(); // After you call this callback, will process next...
-                 );
+                 });
                },
                function end (done) { //optional
                  this.queue(null);
