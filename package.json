@@ -1,0 +1,29 @@
+{
+  "name": "srough",
+  "version": "0.0.1",
+  "main": "./srough.js",
+  "description": "Like `through` for async streams.",
+  "homepage": "https://github.com/tounano/srough/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "stream",
+    "streams",
+    "user-streams",
+    "pipe",
+    "through"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/srough"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "underscore": "latest"
+  }
+}
